@@ -2,6 +2,8 @@
 
 참고: <a href="https://velog.io/@velopert/react-component-styling">@velopert</a>
 
+<br/>
+
 ### ✔ Sass 
 
 Sass (Syntactically Awesome Style Sheets: 문법적으로 멋진 스타일 시트)는 CSS pre-processor로서,
@@ -36,6 +38,8 @@ Sass (Syntactically Awesome Style Sheets: 문법적으로 멋진 스타일 시�
 
 - #### 🔎 <a href="https://sass-lang.com/guide">더 자세히 알아보기</a>
 
+<br/>
+<br/>
 
 
 ## 방법
@@ -48,6 +52,7 @@ node-sass 라이브러리는 Sass를 CSS로 변환해준다
 ```bash
 $ yarn add node-sass
 ```
+<br/>
 
 ### ✔ 2. src 디렉토리에 SassComponent.scss파일 생성
 
@@ -136,6 +141,9 @@ $ yarn add node-sass
     ```
 - 컴포넌트 App.js에 렌더링
 
+<br/>
+
+
 ### ✔ 3. Sass변수 및 믹스인 분리
 
 자주 사용 되는 Sass변수 및 믹스인을 따로 파일로 분리해준다.
@@ -165,6 +173,9 @@ $ yarn add node-sass
     ```scss
     @import './styles/utils.scss';
     ```
+
+<br/>
+
 
 ### ✔ 4. sass-loader 설정 커스터마이징 (import 경로 설정 간단하게)
 
@@ -247,6 +258,8 @@ webpack.config.js 코드안에 sassRegex 를 찾아보면,
 ```scss
 @import 'utils.scss';
 ```
+
+<br/>
 
 ### ✔ 5. sass-loader 설정 커스터마이징 (더 간단하게)
 
